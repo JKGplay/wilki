@@ -52,11 +52,11 @@ body {
     font-family: 'Immortal';
     font-size: 4em;
 }
-.container {
+/*.container {
     margin: auto;
     text-align: center;
     width: 50%;
-}
+}*/
 ::placeholder {
     font-family: 'Immortal';
 }
