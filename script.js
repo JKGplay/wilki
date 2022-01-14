@@ -1,3 +1,13 @@
+let theme = document.getElementsByTagName('link')[0];
+
+if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+    theme.setAttribute('href', 'style.css');
+    console.log("android");
+} else {
+    theme.setAttribute('href', 'stylePC.css');
+    console.log("PC");
+}
+
 const myForm = document.getElementById("form");
 const btn = document.getElementById("btn");
 const span = document.getElementById("result");
