@@ -88,14 +88,14 @@ input[type=button]:hover {
 }
 fieldset {
     background-color: #333;
-    margin-top: 1em;
+    margin-top: 0;
     padding: 0.3em 0;
     border-radius: 1em;
     border: solid 5px #F46036;
     text-align: center;
     position: absolute;
-    bottom: 15%;
-    top: 15%;
+    bottom: 0;
+    top: 0;
     left: 0;
 }
 span {
@@ -107,6 +107,10 @@ span {
     height: 1em;
     border-radius: 10px;
     font-size: 2em;
+}
+span#knocked {
+    margin-top: 0.1em;
+    font-size: 1em;
 }
 .slider {
     -webkit-appearance: none;  /* Override default CSS styles */

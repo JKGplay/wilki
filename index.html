@@ -10,32 +10,33 @@
 </head>
 
 <body>
-<div class="container">
-    <fieldset>
-        <div>
-            Łączne obrażenia: <span id="result"></span>
-	    Powalony: <span id="knocked"></span>
-        </div>
-        <div class="formContainer">
-            <form action="" method="" autocomplete="off" id="form">
-                <label for="velNum">Liczba raptorów: </label><br>
-                <input type="number" name="velNum" id="velNum" placeholder="Wpisz liczbę raptorów" value="8">
-                1&nbsp;<input class="inputRangeVelo slider" type="range" min="1" max="8" value="8">&nbsp;8
-                <br><br>
-                <label for="AC">KP przeciwnika: </label><br>
-                <input type="number" name="AC" id="AC" placeholder="Wpisz KP przeciwnika" value="10">
-                1&nbsp;<input class="inputRangeAC slider" type="range" min="1" max="30" value="10">&nbsp;30
-		<br><br>
-                <label for="RO">RO na siłę: </label><br>
-                <input type="number" name="RO" id="RO" placeholder="Wpisz RO przeciwnika" value="0">
-                -5&nbsp;<input class="inputRangeRO slider" type="range" min="-5" max="10" value="0">&nbsp;10
+    <div class="container">
+        <fieldset>
+            <div>
+                Łączne obrażenia: <span id="result"></span>
                 <br>
-                <input type="button" value="Oblicz" name="btn" id="btn">
-            </form>
-        </div>
-    </fieldset>
-    <script src="script.js"></script>
-</div>                       
+                Powalony: <span id="knocked"></span>
+            </div>
+            <div class="formContainer">
+                <form action="" method="" autocomplete="off" id="form">
+                    <label for="velNum">Liczba raptorów: </label><br>
+                    <input type="number" name="velNum" id="velNum" placeholder="Wpisz liczbę raptorów" value="8">
+                    1&nbsp;<input class="inputRangeVelo slider" type="range" min="1" max="8" value="8">&nbsp;8
+                    <br><br>
+                    <label for="AC">KP przeciwnika: </label><br>
+                    <input type="number" name="AC" id="AC" placeholder="Wpisz KP przeciwnika" value="10">
+                    1&nbsp;<input class="inputRangeAC slider" type="range" min="1" max="30" value="10">&nbsp;30
+                    <br><br>
+                    <label for="RO">RO na siłę: </label><br>
+                    <input type="number" name="RO" id="RO" placeholder="Wpisz RO przeciwnika" value="0">
+                    -5&nbsp;<input class="inputRangeRO slider" type="range" min="-5" max="10" value="0">&nbsp;10
+                    <br>
+                    <input type="button" value="Oblicz" name="btn" id="btn">
+                </form>
+            </div>
+        </fieldset>
+        <script src="script.js"></script>
+    </div>
 </body>
 
 </html>
